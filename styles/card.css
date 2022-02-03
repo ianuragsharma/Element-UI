@@ -1,0 +1,95 @@
+.vertical-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 13rem;
+}
+.card-shadow {
+  box-shadow: 5px 5px 5px var(--color-brand-secondary);
+}
+.card-details-container {
+  padding: 0.5rem;
+  font-weight: 300;
+}
+.card-details-container > h3 {
+  line-height: 0.875rem;
+}
+
+.card-price-info {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+.card-price-info > del {
+  font-weight: 200;
+}
+.card-footer {
+  padding: 0rem 0rem 0.5rem 0.5rem;
+}
+.buy-button {
+  width: fit-content;
+}
+.card-badge {
+  position: relative;
+}
+.card-badge > span {
+  position: absolute;
+  height: 1.2rem;
+  width: 2rem;
+  top: 5px;
+  left: 1px;
+  font-weight: 400;
+  background-color: var(--color-brand-primary);
+  color: var(--color-solid-white);
+}
+.card-dismiss {
+  position: relative;
+}
+.card-dismiss > a {
+  position: absolute;
+  content: "";
+  height: 1.2em;
+  width: 1.2rem;
+  top: 5px;
+  right: 5px;
+  font-weight: 400;
+  border-radius: 50%;
+  background-color: var(--color-brand-secondary);
+  color: var(--color-solid-black);
+}
+.card-overlay {
+  position: relative;
+}
+.card-overlay::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  background-color: var(--color-brand-secondary);
+}
+
+.card-overlay .overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 7.5rem;
+  font-weight: 900;
+  background-color: var(--dim-grey);
+  color: var(--color-solid-white);
+}
+.horizontal-card {
+  max-width: 55rem;
+  max-height: 15rem;
+  display: flex;
+}
+.card-details-container .product-details {
+  margin-top: 0.875rem;
+}
+.text-card {
+  max-width: 22rem;
+  border: 2px solid var(--dim-grey);
+}
+.text-card h3 {
+  display: inline;
+  border-bottom: 2px solid var(--color-brand-secondary);
+}
