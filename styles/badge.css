@@ -6,8 +6,8 @@
   font-size: 3rem;
 }
 .badge > div {
-  bottom: 5px;
-  right: 5px;
+  bottom: 0.312rem;
+  right: 0.312rem;
   position: absolute;
   height: 0.625rem;
   width: 0.625rem;
