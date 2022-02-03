@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url(./alert.css);
+@import url(./avatar.css);
+@import url(./badge.css);
+@import url(./button.css);
+@import url(./card.css);
+@import url("./images.css");
+@import url(./style.css);
+:root {
+  /* brand colors */
+  --color-brand-primary: #4285f4;
+  --color-brand-secondary: #a2aaad;
+
+  /* dim shade  */
+  --dim-primary: #3469bf;
+  --dim-grey: #d1d5db;
+
+  /* alert color  */
+  --color-alert-red: #ef4444;
+  --color-alert-green: #15803d;
+
+  /* text color  */
+  --color-text-primary: #333333;
+  --color-text-secondary: #141823;
+
+  /* background colors  */
+  --color-bg-offgrey: #f4f5f6;
+  --color-bg-lightblue: #dbeafe;
+  --color-bg-red: #ef4444;
+  --color-bg-green: #22c55e;
+
+  /* solid colors  */
+  --color-solid-white: #ffffff;
+  --color-solid-red: #ff0000;
+  --color-solid-black: #000000;
+}
+
+/* typography */
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-xxl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-xxxl {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-text-primary);
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+input,
+textarea {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
