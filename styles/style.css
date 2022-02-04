@@ -3,7 +3,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  background-color: var(--dim-grey);
+  background-color: var(--solid-white);
   z-index: 2;
 }
 .navigation {
