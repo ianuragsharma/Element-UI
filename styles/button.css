@@ -1,0 +1,28 @@
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+}
+.btn-solid-primary {
+  background-color: var(--brand-primary);
+}
+.btn-outlined-secondary {
+  border: 1px solid var(--brand-secondary);
+}
+.btn-icon {
+  color: var(--brand-primary);
+}
+.btn-float > i {
+  background-color: var(--brand-primary);
+  line-height: 2rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+/* hover */
+.btn-outlined-secondary:hover {
+  background-color: var(--brand-secondary);
+  color: var(--solid-white);
+}
+.btn-solid-primary:hover {
+  background-color: var(--dim-primary);
+}

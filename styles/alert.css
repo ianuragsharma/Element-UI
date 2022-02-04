@@ -1,0 +1,31 @@
+.alert-box {
+  padding: 1rem;
+  border-radius: 2px;
+  margin: 1rem 0;
+}
+.alert-icon {
+  margin-right: 0.625rem;
+}
+.alert-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.side-border {
+  border-left: 5px solid var(--brand-secondary);
+}
+/* colors */
+.alert-primary {
+  background-color: var(--brand-primary);
+}
+.alert-secondary {
+  background-color: var(--brand-secondary);
+}
+.side-border {
+  background-color: var(--brand-primary);
+}
+.alert-success {
+  background-color: var(--bg-green);
+}
+.alert-danger {
+  background-color: var(--bg-red);
+}
