@@ -16,7 +16,7 @@
 }
 
 .badge .online {
-  background-color: var(--color-bg-green);
+  background-color: var(--bg-green);
 }
 
 .badge .offline {
@@ -24,7 +24,7 @@
 }
 
 .badge .dnd {
-  background-color: var(--color-bg-red);
+  background-color: var(--bg-red);
 }
 
 .badge .number {
@@ -32,7 +32,7 @@
   top: 1px;
   right: 0px;
   font-size: 0.625rem;
-  color: var(--color-text-primary);
+  color: var(--text-primary);
   text-align: center;
   line-height: 1rem;
   border: none;
@@ -40,8 +40,8 @@
   width: 1rem;
 }
 .badge-primary {
-  background-color: var(--color-brand-primary);
+  background-color: var(--brand-primary);
 }
 .badge-secondary {
-  background-color: var(--color-brand-secondary);
+  background-color: var(--brand-secondary);
 }
