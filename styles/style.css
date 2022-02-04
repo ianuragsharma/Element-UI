@@ -14,7 +14,7 @@
   font-weight: 300;
 }
 .navigation-title > i {
-  color: var(--color-brand-primary);
+  color: var(--brand-primary);
 }
 .navigation-list {
   margin-left: auto;
@@ -52,10 +52,10 @@
 }
 .icon-animation i:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 2px var(--color-brand-secondary);
+  -webkit-text-stroke: 2px var(--brand-secondary);
 }
 .icon-animation i:nth-child(2) {
-  color: var(--color-brand-primary);
+  color: var(--brand-primary);
   animation: animate 4s ease-in-out infinite;
 }
 
