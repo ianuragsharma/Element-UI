@@ -4,7 +4,7 @@
   max-width: 13rem;
 }
 .card-shadow {
-  box-shadow: 5px 5px 5px var(--color-brand-secondary);
+  box-shadow: 5px 5px 5px var(--brand-secondary);
 }
 .card-details-container {
   padding: 0.5rem;
@@ -37,8 +37,8 @@
   top: 5px;
   left: 1px;
   font-weight: 400;
-  background-color: var(--color-brand-primary);
-  color: var(--color-solid-white);
+  background-color: var(--brand-primary);
+  color: var(--solid-white);
 }
 .card-dismiss {
   position: relative;
@@ -52,8 +52,8 @@
   right: 5px;
   font-weight: 400;
   border-radius: 50%;
-  background-color: var(--color-brand-secondary);
-  color: var(--color-solid-black);
+  background-color: var(--brand-secondary);
+  color: var(--solid-black);
 }
 .card-overlay {
   position: relative;
@@ -64,7 +64,7 @@
   height: 100%;
   width: 100%;
   opacity: 0.6;
-  background-color: var(--color-brand-secondary);
+  background-color: var(--brand-secondary);
 }
 
 .card-overlay .overlay {
@@ -75,7 +75,7 @@
   width: 7.5rem;
   font-weight: 900;
   background-color: var(--dim-grey);
-  color: var(--color-solid-white);
+  color: var(--solid-white);
 }
 .horizontal-card {
   max-width: 55rem;
@@ -91,5 +91,5 @@
 }
 .text-card h3 {
   display: inline;
-  border-bottom: 2px solid var(--color-brand-secondary);
+  border-bottom: 2px solid var(--brand-secondary);
 }
