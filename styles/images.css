@@ -1,13 +1,13 @@
-.image-res {
+.image-responsive {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
-.sq-img {
+.image-square {
   height: 100%;
   object-fit: cover;
 }
-.round-img {
+.image-round {
   border-radius: 50%;
   object-fit: cover;
 }
