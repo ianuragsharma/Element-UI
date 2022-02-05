@@ -21,7 +21,7 @@
 }
 
 .header-container {
-  max-width: 50rem;
+  max-width: 55rem;
   margin: 0 auto;
   padding: 8rem 0rem;
   border-bottom: 1px solid var(--dim-grey);
