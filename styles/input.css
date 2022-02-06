@@ -1,0 +1,25 @@
+.input-label {
+  display: block;
+  margin: 1px 0px;
+}
+.input-area {
+  transition: 0.3s all ease;
+  border-radius: 5px;
+  padding: 5px;
+}
+.input-area:focus {
+  border: 2px solid var(--brand-primary);
+  outline: none;
+}
+.input-error {
+  border: 2px solid var(--alert-red);
+}
+
+.input-error:focus {
+  border: 2px solid var(--alert-red);
+}
+.error-msg {
+  display: block;
+  padding: 5px;
+  color: var(--alert-red);
+}
