@@ -49,38 +49,47 @@
         </div>
         <section class="container" id="avatar">
             <h2 class="text-xxl">Avatar</h2>
+
             <p class="description text-base">
-                Avatars are images that users can set as their profile picture.They can be custom photos, uploaded by
+                Avatars are images that users can set as their profile picture.They can be custom photos, uploaded
+                by
                 users, or generated as Identicons as a placeholder.
             </p>
-            <h3 class="example-heading">Simple Avatar</h3>
-            <div class="example flex">
-                <img alt="" class="avatar avatar-sm"
-                    src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
-                <!-- medium avatar  -->
-                <img alt="" class="avatar"
-                    src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
-                <!-- large avatar  -->
-                <img alt="" class="avatar avatar-lg"
-                    src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
-                <!-- Extre large avatar  -->
-                <img alt="" class="avatar avatar-xl"
-                    src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
-            </div>
-            <div class="code ">
-                <pre><code class="html code-frame">
+            <div class="example-container">
+                <h3 class="example-heading">Sample Avatar</h3>
+                <div class="example flex">
+
+                    <img alt="" class="avatar avatar-sm"
+                        src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
+                    <!-- medium avatar  -->
+                    <img alt="" class="avatar"
+                        src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
+                    <!-- large avatar  -->
+                    <img alt="" class="avatar avatar-lg"
+                        src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
+                    <!-- Extre large avatar  -->
+                    <img alt="" class="avatar avatar-xl"
+                        src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- small avatar --&gt;
 &lt;img alt="" class="avatar avatar-sm"
 src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" /&gt;
+
 &lt;!-- medium avatar --&gt;
 &lt;img alt="" class="avatar" src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" /&gt;
+
 &lt;!-- large avatar --&gt;
 &lt;img alt="" class="avatar avatar-lg"
 src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" /&gt;
+
 &lt;!-- Extre large avatar --&gt;
 &lt;img alt="" class="avatar avatar-xl"
 src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" /&gt;
                 </code></pre>
 
+                </div>
             </div>
         </section>
         <section class="container" id="alert">
@@ -90,13 +99,251 @@ src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.j
                 more than one
                 at a time.
             </p>
+            <div class="example-container">
+                <h3 class="example-heading">Sample Alert</h3>
+                <div class="example ">
+                    <!-- primary alert  -->
+                    <div class="alert-box alert-primary text-lg text-white">
+                        Proceed to checkout
+                    </div>
+                    <!-- alert secondary -->
+                    <div class="alert-box alert-secondary text-lg text-white">
+                        Product added to <a href="#" class="alert-link">Cart</a>
+                    </div>
+                    <!-- side border alert  -->
+                    <div class="alert-box  side-border text-lg text-white">
+                        Proceed to checkout
+                    </div>
+                    <!-- success alert  -->
+                    <div class="alert-box alert-success text-lg text-white">
+                        <span><i class="fas fa-check-circle alert-icon text-lg"></i></span>
+                        Login Successful
+                    </div>
+                    <!-- danger alert  -->
+                    <div class="alert-box alert-danger text-lg text-white">
+                        <span><i class="fas fa-exclamation-triangle alert-icon"></i></span>
+                        Something not ideal might be happening.
+                    </div>
+
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- primary alert --&gt;
+&lt;div class="alert-box alert-primary text-lg text-white"&gt;
+Proceed to checkout
+&lt;/div&gt;
+
+&lt;!-- alert secondary --&gt;
+&lt;div class="alert-box alert-secondary text-lg text-white"&gt;
+Product added to &lt;a href="#" class="alert-link"&gt;Cart&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;!-- side border alert --&gt;
+&lt;div class="alert-box side-border text-lg text-white"&gt;
+Proceed to checkout
+&lt;/div&gt;
+
+&lt;!-- success alert --&gt;
+&lt;div class="alert-box alert-success text-lg text-white"&gt;
+&lt;span&gt;&lt;i class="fas fa-check-circle alert-icon text-lg"&gt;&lt;/i&gt;&lt;/span&gt;
+Login Successful
+&lt;/div&gt;
+
+&lt;!-- danger alert --&gt;
+&lt;div class="alert-box alert-danger text-lg text-white"&gt;
+&lt;span&gt;&lt;i class="fas fa-exclamation-triangle alert-icon"&gt;&lt;/i&gt;&lt;/span&gt;
+Something not ideal might be happening.
+&lt;/div&gt;
+                </code></pre>
+
+                </div>
+            </div>
         </section>
-        <section class="container" id="badge"></section>
-        <section class="container" id="button"></section>
-        <section class="container" id="card"></section>
-        <section class="container" id="images"></section>
-        <section class="container" id="input"></section>
-        <footer class="container" class="footer"></footer>
+        <section class="container" id="badge">
+            <h2 class="text-xxl">Badge</h2>
+
+            <p class="description text-base">
+                Badges are used to highlight an item's status for quick recognition.
+
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading">Badge on icon</h3>
+                <div class="example flex">
+                    <div class="badge badge-icon ">
+                        <i class="far fa-bell"></i>
+                        <div class="number badge-primary text-white">10</div>
+                    </div>
+
+                    <div class="badge badge-icon">
+                        <i class="fas fa-shopping-cart "></i>
+                        <div class="number badge-secondary text-white ">15</div>
+                    </div>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;div class="badge badge-icon"&gt;
+&lt;i class="far fa-bell"&gt;&lt;/i&gt;
+&lt;div class="number badge-primary text-white"&gt;10&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="badge badge-icon"&gt;
+&lt;i class="fas fa-shopping-cart "&gt;&lt;/i&gt;
+&lt;div class="number badge-secondary text-white"&gt;15&lt;/div&gt;
+&lt;/div&gt;
+                </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading">Badge on Avatar</h3>
+                <div class="example flex">
+                    <div class="badge">
+                        <img alt="user-image" class="avatar "
+                            src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
+                        <div class="online"></div>
+                    </div>
+
+                    <div class="badge">
+                        <img alt="user-image" class="avatar "
+                            src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
+                        <div class="offline"></div>
+                    </div>
+
+                    <div class="badge">
+                        <img alt="user-image" class="avatar "
+                            src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
+                        <div class="dnd"></div>
+                    </div>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- online badge  --&gt;
+&lt;div class="badge"&gt;
+&lt;img alt="user-image" class="avatar "
+src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" /&gt;
+&lt;div class="online"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- offline badge  --&gt;
+&lt;div class="badge"&gt;
+&lt;img alt="user-image" class="avatar "
+src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" /&gt;
+&lt;div class="offline"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- do not disturb badge --&gt;
+&lt;div class="badge"&gt;
+&lt;img alt="user-image" class="avatar "
+src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" /&gt;
+&lt;div class="dnd"&gt;&lt;/div&gt;
+&lt;/div&gt;
+                            </code></pre>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="button">
+            <h2 class="text-xxl">Button</h2>
+
+            <p class="description text-base">
+                Buttons are used for actions, like in forms, while textual hyperlinks are used for destinations, or
+                moving from one page
+                to another.
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading">Sample Buttons</h3>
+                <div class="example flex">
+                    <!-- primary button  -->
+                    <button class="btn btn-solid-primary text-lg text-white">Primary</button>
+                    <!-- secondary btn  -->
+                    <button class="btn btn-outlined-secondary text-lg">Outlined</button>
+                    <!-- link btn  -->
+                    <button class="btn link-btn btn-solid-primary text-lg text-white">
+                        <a href="">Link</a>
+                    </button>
+                    <!-- icon button  -->
+                    <button class="btn btn-icon text-lg"><i class="fas fa-shopping-cart"></i></button>
+                    <!-- floating btn  -->
+                    <button class="btn btn-float text-lg text-white text-center"><i class="fas fa-plus"></i></button>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- primary button --&gt;
+&lt;button class="btn btn-solid-primary text-lg text-white"&gt;Primary&lt;/button&gt;
+
+&lt;!-- secondary btn --&gt;
+&lt;button class="btn btn-outlined-secondary text-lg"&gt;Outlined&lt;/button&gt;
+
+&lt;!-- link btn --&gt;
+&lt;button class="btn link-btn btn-solid-primary text-lg text-white"&gt;
+&lt;a href=""&gt;Link&lt;/a&gt;
+&lt;/button&gt;
+
+&lt;!-- icon button --&gt;
+&lt;button class="btn btn-icon text-lg"&gt;&lt;i class="fas fa-shopping-cart"&gt;&lt;/i&gt;&lt;/button&gt;
+
+&lt;!-- floating btn --&gt;
+&lt;button class="btn btn-float text-lg text-white text-center"&gt;&lt;i class="fas
+fa-plus"&gt;&lt;/i&gt;&lt;/button&gt;
+                </code></pre>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="card">
+            <h2 class="text-xxl">Card</h2>
+
+            <p class="description text-base">
+
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading">Sample Card</h3>
+                <div class="example flex">
+
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+        
+                </code></pre>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="images">
+            <h2 class="text-xxl">Images</h2>
+
+            <p class="description text-base">
+
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading">Sample Images</h3>
+                <div class="example flex">
+
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+        
+                </code></pre>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="input">
+            <h2 class="text-xxl">Input</h2>
+
+            <p class="description text-base">
+
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading">Sample Inputs</h3>
+                <div class="example flex">
+
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+
+        </code></pre>
+                </div>
+            </div>
+        </section>
+        <footer class="container" class="footer">
+
+        </footer>
     </main>
     <script src="documentation.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>

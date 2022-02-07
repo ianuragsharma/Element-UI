@@ -28,14 +28,26 @@
 }
 .container {
   position: relative;
-  margin: 5rem auto;
+  margin: 0 auto;
+  margin-bottom: 3rem;
   max-width: 55rem;
   padding: 1rem;
-  border-bottom: 2px solid var(--bg-offgrey);
+  border-top: 2px solid var(--bg-offgrey);
+}
+
+.container h2 {
+  margin-top: 3rem;
 }
 .description {
   margin-top: 0.5rem;
 }
+.example-container {
+  margin-top: 2rem;
+}
+.example-container > * {
+  margin-top: 0.5rem;
+}
+
 .example {
   background-color: var(--bg-offgrey);
   justify-content: space-around;
