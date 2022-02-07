@@ -8,11 +8,11 @@
 }
 .navigation {
   margin: 0 auto;
-  display: flex;
   max-width: 55rem;
   padding: 0.625rem;
   font-weight: 300;
 }
+
 .navigation-title > i {
   color: var(--brand-primary);
 }
@@ -20,8 +20,15 @@
   margin-left: auto;
 }
 
+.navigation-item > a {
+  margin-left: 1.5rem;
+}
+.navigation-item > a:hover {
+  color: var(--brand-primary);
+}
+
 .header-container {
-  max-width: 55rem;
+  max-width: 50rem;
   margin: 0 auto;
   padding: 8rem 0rem;
   border-bottom: 1px solid var(--dim-grey);
