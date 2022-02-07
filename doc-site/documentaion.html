@@ -5,27 +5,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Element UI</title>
+    <title>Documentation</title>
     <script src="https://kit.fontawesome.com/f45a42e7ea.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../utility.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="documentation.css">
+    <link rel="stylesheet" href="../styles/utility.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
+        integrity="sha512-Jk4AqjWsdSzSWCSuQTfYRIF84Rq/eV0G2+tu07byYwHcbTGfdmLrHjUSwvzp5HvbiqK4ibmNwdcG49Y5RGYPTg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<main class="wrapper">
-    <nav class="navigation text-lg">
-
-        <a class="navigation-title" href="home.html" title="Element UI">
-            <i class="fab fa-envira"></i>
-            <span class="title">Element UI</span>
-        </a>
-        <span class="navigation-list">
-            <a class="navigation-item">GitHub</a>
-        </span>
-    </nav>
-
-    <footer class="footer"></footer>
-</main>
 
 <body>
+    <main class="wrapper">
+        <div class='nav-wrapper'>
+            <nav class="navigation flex text-xl">
+                <a class="navigation-title" href="../index.html" title="Element UI">
+                    <i class="fab fa-envira fa-lg"></i>
+                    <span class="title">Element UI</span>
+                </a>
+                <ul class="navigation-list flex">
+                    <li class="navigation-item">
+                        <a class="docs" href="#/"></i>Docs<i class="fas fa-caret-down">
+                            </i></a>
+                        <div class="dropdown hide">
+                            <ul class="dropdown-list text-center">
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#avatar">Avatar</a></li>
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#alert">Alert</a></li>
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#badge">Badge</a></li>
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#button">Button</a></li>
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#card">Card</a></li>
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#images">Images</a></li>
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#input">Input</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="https://github.com/ianuragsharma"><i class="fab fa-github fa-lg"></i></a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <section class="container" id="avatar">
+            <h2 class="text-xxl">Avatar</h2>
+            <p class="description text-base">
+                Avatars are images that users can set as their profile picture.They can be custom photos, uploaded by
+                users, or generated as Identicons as a placeholder.
+            </p>
+            <h3 class="example-heading">Simple Avatar</h3>
+            <div class="example flex">
+                <img alt="" class="avatar avatar-sm"
+                    src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
+                <!-- medium avatar  -->
+                <img alt="" class="avatar"
+                    src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
+                <!-- large avatar  -->
+                <img alt="" class="avatar avatar-lg"
+                    src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
+                <!-- Extre large avatar  -->
+                <img alt="" class="avatar avatar-xl"
+                    src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" />
+            </div>
+            <div class="code ">
+                <pre><code class="html code-frame">
+&lt;img alt="" class="avatar avatar-sm"
+src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" /&gt;
+&lt;!-- medium avatar --&gt;
+&lt;img alt="" class="avatar" src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" /&gt;
+&lt;!-- large avatar --&gt;
+&lt;img alt="" class="avatar avatar-lg"
+src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" /&gt;
+&lt;!-- Extre large avatar --&gt;
+&lt;img alt="" class="avatar avatar-xl"
+src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.jpg" /&gt;
+                </code></pre>
+
+            </div>
+        </section>
+        <section class="container" id="alert">
+            <h2 class="text-xxl">Alert</h2>
+            <p class="description text-base">
+                Flash messages, or alerts, inform users of successful or pending actions. Use them sparingly. Don't show
+                more than one
+                at a time.
+            </p>
+        </section>
+        <section class="container" id="badge"></section>
+        <section class="container" id="button"></section>
+        <section class="container" id="card"></section>
+        <section class="container" id="images"></section>
+        <section class="container" id="input"></section>
+        <footer class="container" class="footer"></footer>
+    </main>
+    <script src="documentation.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 
 </html>
