@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anurag Sharma">
+    <title>Input</title>
+    <link rel="stylesheet" href="./utility.css">
+</head>
+
+<body>
+    <!-- input field  -->
+    <label for="name" class="input-label text-base">User name:</label>
+    <input name="name" type="text " class="input-area text-base" placeholder="User Name">
+    <!-- email input  -->
+    <label for="email" class="input-label text-base">Email:</label>
+    <input name="email" type="email" class="input-area text-base" placeholder="Enter Email">
+    <!-- password input  -->
+    <div class="has-error">
+        <label for="password" class="input-label text-base">Password:</label>
+        <input name="password" type="password" class="input-area text-base input-error" required minlength="4"
+            placeholder="Password">
+        <span class=" error-msg text-xs">Something Went Wrong</span>
+    </div>
+</body>
+
+</html>
