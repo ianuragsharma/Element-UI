@@ -68,8 +68,12 @@
   font-size: 3rem;
   line-height: 3.5rem;
 }
+
 .text-white {
   color: var(--solid-white);
+}
+.text-primary {
+  color: var(--brand-primary);
 }
 .text-red {
   color: var(--alert-red);
