@@ -38,7 +38,6 @@
   left: 1px;
   font-weight: 400;
   background-color: var(--brand-primary);
-  color: var(--solid-white);
 }
 .card-dismiss {
   position: relative;
@@ -74,8 +73,7 @@
   transform: translate(-50%, -50%);
   width: 7.5rem;
   font-weight: 900;
-  background-color: var(--dim-grey);
-  color: var(--solid-white);
+  background-color: var(--brand-secondary);
 }
 .horizontal-card {
   max-width: 55rem;

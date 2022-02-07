@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
-
 @import url(./alert.css);
 @import url(./avatar.css);
 @import url(./badge.css);
 @import url(./button.css);
 @import url(./card.css);
-@import url("./images.css");
 @import url(./style.css);
+@import url(./images.css);
+@import url(./input.css);
 
 :root {
   /* brand colors */
@@ -118,4 +118,8 @@ textarea {
 
 ul {
   list-style: none;
+}
+/* flex  */
+.flex {
+  display: flex;
 }
