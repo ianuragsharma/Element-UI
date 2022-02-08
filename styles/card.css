@@ -1,6 +1,4 @@
 .vertical-card {
-  display: flex;
-  flex-direction: column;
   max-width: 13rem;
 }
 .card-shadow {
@@ -54,6 +52,7 @@
   background-color: var(--brand-secondary);
   color: var(--solid-black);
 }
+/* card overlay */
 .card-overlay {
   position: relative;
 }
