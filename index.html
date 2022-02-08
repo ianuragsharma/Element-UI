@@ -8,50 +8,75 @@
     <title>Element UI</title>
     <script src="https://kit.fontawesome.com/f45a42e7ea.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/utility.css">
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
+        integrity="sha512-Jk4AqjWsdSzSWCSuQTfYRIF84Rq/eV0G2+tu07byYwHcbTGfdmLrHjUSwvzp5HvbiqK4ibmNwdcG49Y5RGYPTg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
-<main class="wrapper">
-    <div class='nav-wrapper'>
-        <nav class="navigation flex text-xl">
-            <a class="navigation-title" href="./index.html" title="Element UI">
-                <i class="fab fa-envira fa-lg"></i>
-                <span class="title">Element UI</span>
-            </a>
-            <ul class="navigation-list flex">
-
-                <li class="navigation-item">
-                    <a href="https://github.com/ianuragsharma"><i class="fab fa-github fa-lg"></i></a>
-                </li>
-
-            </ul>
-        </nav>
-    </div>
-    <header class="header text-center">
-        <section class="header-container">
-            <div class='icon-animation'>
-                <i class="fab fa-envira fa-10x"></i>
-                <i class="fab fa-envira fa-10x"></i>
-            </div>
-            <h1 class="text-xxl">Element UI</h1>
-            <p class="text-lg">An <u>Elegantly designed</u> , <u> Responsive </u>and <u> Lightweight</u> CSS library</p>
-            <a href="https://www.google.com/"><button class="btn-cta btn btn-outlined-secondary">Get
-                    Started</button></a>
-            <a href="./doc-site/documentaion.html">
-                <button class="btn-cta btn btn-solid-primary text-white">Documentation</button>
-            </a>
-        </section>
-
-    </header>
-    <section class="get-started">
-        <h3 class="text-xl">Getting Started</h3>
-        <p>
-
-        </p>
-    </section>
-    <footer class="footer"></footer>
-</main>
 
 <body>
+    <main class="wrapper">
+        <div class='nav-wrapper'>
+            <nav class="navigation flex text-xl fw-300">
+                <a class="navigation-title" href="./index.html" title="Element UI">
+                    <i class="fab fa-envira fa-lg"></i>
+                    <span class="title  ">Element UI</span>
+                </a>
+                <ul class="navigation-list flex">
+
+                    <li class="navigation-item">
+                        <a href="https://github.com/ianuragsharma"><i class="fab fa-github fa-lg"></i></a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <header class="header text-center">
+            <section class="header-container">
+                <div class='icon-animation'>
+                    <i class="fab fa-envira fa-10x"></i>
+                    <i class="fab fa-envira fa-10x"></i>
+                </div>
+                <h1 class="text-xxl fw-400">Element UI</h1>
+                <p class="text-lg fw-300">An <u>Elegantly designed</u> , <u> Responsive </u>and <u> Lightweight</u> CSS
+                    library
+                </p>
+                <a href="#getting-started"><button class="btn-cta btn btn-outlined-secondary text-base">Getting
+                        Started</button></a>
+                <a href="./doc-site/documentaion.html">
+                    <button class="btn-cta btn btn-solid-primary text-white text-base">Documentation</button>
+                </a>
+            </section>
+
+        </header>
+        <section class="container" id="getting-started">
+            <h2 class="text-xl  ">Getting Started</h2>
+
+            <p class="description text-base">
+
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Using CDN</h3>
+                <p class="fw-300">To get started with Element-UI Copy the following CSS link in the head tag of your
+                    HTML document
+                    <strong>above</strong> your user style Sheet and you
+                    are good to go.
+                </p>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;link rel="stylesheet" href="https://element-ui.netlify.app/styles/utility.css"&gt;
+                        </code></pre>
+                </div>
+            </div>
+
+        </section>
+        <footer class="footer"></footer>
+    </main>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </body>
 
 </html>
