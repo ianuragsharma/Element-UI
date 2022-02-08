@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 @import url(./alert.css);
 @import url(./avatar.css);
 @import url(./badge.css);
 @import url(./button.css);
 @import url(./card.css);
-@import url(./style.css);
 @import url(./images.css);
 @import url(./input.css);
 
@@ -68,7 +67,24 @@
   font-size: 3rem;
   line-height: 3.5rem;
 }
-
+.fw-100 {
+  font-weight: 100;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-900 {
+  font-weight: 900;
+}
 .text-white {
   color: var(--solid-white);
 }
