@@ -26,36 +26,3 @@
 .hide {
   display: none;
 }
-.container {
-  position: relative;
-  margin: 0 auto;
-  margin-bottom: 3rem;
-  max-width: 55rem;
-  padding: 1rem;
-  border-top: 2px solid var(--bg-offgrey);
-}
-
-.container h2 {
-  margin-top: 3rem;
-}
-.description {
-  margin-top: 0.5rem;
-}
-.example-container {
-  margin-top: 2rem;
-}
-.example-container > * {
-  margin-top: 0.5rem;
-}
-
-.example {
-  background-color: var(--bg-offgrey);
-  justify-content: space-around;
-  align-items: center;
-  padding: 1rem 0rem;
-  border-radius: 5px;
-  border: 1px solid var(--dim-grey);
-}
-.code-frame {
-  border-radius: 5px;
-}
