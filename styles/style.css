@@ -106,7 +106,8 @@
   background-color: var(--bg-offgrey);
   justify-content: space-around;
   align-items: center;
-  padding: 1rem 0rem;
+  flex-wrap: wrap;
+  padding: 1rem 0.5rem;
   border-radius: 5px;
   border: 1px solid var(--dim-grey);
 }

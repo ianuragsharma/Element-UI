@@ -303,16 +303,208 @@ fa-plus"&gt;&lt;/i&gt;&lt;/button&gt;
             <h2 class="text-xxl">Card</h2>
 
             <p class="description text-base">
-
+                Cards can be used in various scenario they are usually used for displaying information and product
+                actions.
             </p>
             <div class="example-container">
-                <h3 class="example-heading">Sample Card</h3>
+                <h3 class="example-heading">Simple Text card</h3>
                 <div class="example flex-row">
-
+                    <div class="text-card card-shadow ">
+                        <div class="card-details-container">
+                            <h3 class="text-xl">The Weeknd</h3>
+                            <p class="product-details">Abel Makkonen Tesfaye (born February 16, 1990), known
+                                professionally as the
+                                Weeknd, is a Canadian singer-songwriter and
+                                record producer. Known for his sonic versatility and dark lyricism</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="code  text-sm">
                     <pre><code class="html code-frame">
-        
+&lt;div class="card-details-container"&gt;
+   &lt;h3 class="text-xl"&gt;The Weeknd&lt;/h3&gt;
+   &lt;p class="product-details"&gt;Abel Makkonen Tesfaye (born February 16, 1990), known
+      professionally as the
+      Weeknd, is a Canadian singer-songwriter and
+      record producer. Known for his sonic versatility and dark lyricism
+   &lt;/p&gt;
+&lt;/div&gt;
+                </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading">Vertical Shopping card</h3>
+                <div class="example flex-row">
+                    <!-- vertical card  -->
+                    <div class="vertical-card flex-column ">
+
+                        <img src="https://rb.gy/pwrsjk" loading="lazy" alt="product-image">
+                        <div class="card-details-container">
+                            <h3 class="text-base">HRX by Hrithik Roshan</h3>
+                            <span class="text-xs">Men Charcoal Grey Slim </span>
+                            <p class="card-price-info"> Rs.549 <del class="text-xs">Rs.899 </del> </p>
+                        </div>
+                        <div class="card-footer"><button class="btn btn-solid-primary buy-button text-white">ADD TO
+                                CART</button>
+                        </div>
+
+                    </div>
+                    <!-- vertical card  with shadow-->
+                    <div class="vertical-card flex-column card-shadow">
+
+                        <img loading="lazy" src="https://rb.gy/pwrsjk" loading="lazy" alt="product image">
+                        <div class="card-details-container">
+                            <h3 class="text-base">HRX by Hrithik Roshan</h3>
+                            <span class="text-xs">Men Charcoal Grey Slim </span>
+                            <p class="card-price-info"> Rs.549 <del class="text-xs">Rs.899 </del> </p>
+                        </div>
+                        <div class="card-footer"><button class="btn btn-solid-primary buy-button text-white">ADD TO
+                                CART</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- vertical card  --&gt;
+&lt;div class="vertical-card flex-column "&gt;
+   &lt;img src="https://rb.gy/pwrsjk" loading="lazy" alt="product-image"&gt;
+   &lt;div class="card-details-container"&gt;
+      &lt;h3 class="text-base"&gt;HRX by Hrithik Roshan&lt;/h3&gt;
+      &lt;span class="text-xs"&gt;Men Charcoal Grey Slim &lt;/span&gt;
+      &lt;p class="card-price-info"&gt; Rs.549 &lt;del class="text-xs"&gt;Rs.899 &lt;/del&gt; &lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div class="card-footer"&gt;&lt;button class="btn btn-solid-primary buy-button text-white"&gt;ADD TO CART&lt;/button&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- vertical card  with shadow add class = "card-shadow" to add shadows to card--&gt;
+&lt;div class="vertical-card flex-column card-shadow"&gt;
+   &lt;img loading="lazy" src="https://rb.gy/pwrsjk" loading="lazy" alt="product image"&gt;
+   &lt;div class="card-details-container"&gt;
+      &lt;h3 class="text-base"&gt;HRX by Hrithik Roshan&lt;/h3&gt;
+      &lt;span class="text-xs"&gt;Men Charcoal Grey Slim &lt;/span&gt;
+      &lt;p class="card-price-info"&gt; Rs.549 &lt;del class="text-xs"&gt;Rs.899 &lt;/del&gt; &lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div class="card-footer"&gt;&lt;button class="btn btn-solid-primary buy-button text-white"&gt;ADD TO CART&lt;/button&gt;
+   &lt;/div&gt;
+&lt;/div&gt;      
+                                </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading">Vertical Shopping card With Badge and Dismiss</h3>
+                <div class="example flex-row">
+                    <!-- card with badge  -->
+                    <div class="vertical-card flex-column card-badge">
+                        <span class="text-sm text-center text-white">New</span>
+                        <img src="https://rb.gy/pwrsjk" loading="lazy" alt="product-image">
+
+                        <div class="card-details-container">
+                            <h3 class="text-base">HRX by Hrithik Roshan</h3>
+                            <span class="text-xs">Men Charcoal Grey Slim </span>
+                            <p class="card-price-info"> Rs.549 <del class="text-xs">Rs.899 </del> </p>
+                        </div>
+                        <div class="card-footer"><button class="btn btn-solid-primary buy-button text-white">ADD TO
+                                CART</button>
+                        </div>
+
+                    </div>
+                    <!-- card with dismiss -->
+                    <div class="vertical-card flex-column card-dismiss">
+                        <a href="" class="text-center"><i class="fas fa-times"></i></a>
+                        <img src="https://rb.gy/pwrsjk" loading="lazy" alt="product-image">
+
+                        <div class="card-details-container">
+                            <h3 class="text-base">HRX by Hrithik Roshan</h3>
+                            <span class="text-xs">Men Charcoal Grey Slim </span>
+                            <p class="card-price-info"> Rs.549 <del class="text-xs">Rs.899 </del> </p>
+                        </div>
+                        <div class="card-footer"><button class="btn btn-solid-primary buy-button text-white">ADD TO
+                                CART</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- card with badge  --&gt;
+&lt;div class="vertical-card flex-column card-badge"&gt;
+   &lt;span class="text-sm text-center text-white"&gt;New&lt;/span&gt;
+   &lt;img src="https://rb.gy/pwrsjk" loading="lazy" alt="product-image"&gt;
+   &lt;div class="card-details-container"&gt;
+      &lt;h3 class="text-base"&gt;HRX by Hrithik Roshan&lt;/h3&gt;
+      &lt;span class="text-xs"&gt;Men Charcoal Grey Slim &lt;/span&gt;
+      &lt;p class="card-price-info"&gt; Rs.549 &lt;del class="text-xs"&gt;Rs.899 &lt;/del&gt; &lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div class="card-footer"&gt;&lt;button class="btn btn-solid-primary buy-button text-white"&gt;ADD TO CART&lt;/button&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- card with dismiss --&gt;
+&lt;div class="vertical-card flex-column card-dismiss"&gt;
+   &lt;a href="" class="text-center"&gt;&lt;i class="fas fa-times"&gt;&lt;/i&gt;&lt;/a&gt;
+   &lt;img src="https://rb.gy/pwrsjk" loading="lazy" alt="product-image"&gt;
+   &lt;div class="card-details-container"&gt;
+      &lt;h3 class="text-base"&gt;HRX by Hrithik Roshan&lt;/h3&gt;
+      &lt;span class="text-xs"&gt;Men Charcoal Grey Slim &lt;/span&gt;
+      &lt;p class="card-price-info"&gt; Rs.549 &lt;del class="text-xs"&gt;Rs.899 &lt;/del&gt; &lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div class="card-footer"&gt;&lt;button class="btn btn-solid-primary buy-button text-white"&gt;ADD TO CART&lt;/button&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+                                </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading">Vertical Card with text overlay and Horizontal Card</h3>
+                <div class="example flex-row ">
+                    <!-- vetical card with text overlay -->
+                    <div class="vertical-card flex-column card-overlay">
+                        <div class="overlay text-xl text-white text-center">Out of Stock</div>
+
+                        <img src="https://rb.gy/pwrsjk" loading="lazy" alt="product image">
+                        <div class="card-details-container">
+                            <h3 class="text-base">HRX by Hrithik Roshan</h3>
+                            <span class="text-xs">Men Charcoal Grey Slim </span>
+                            <p class="card-price-info"> Rs.549 <del class="text-xs">Rs.899 </del> </p>
+                        </div>
+                        <div class="card-footer"><button class="btn btn-solid-primary buy-button text-white">ADD TO
+                                CART</button>
+                        </div>
+                    </div>
+                    <!-- horizontal card  -->
+                    <div class="horizontal-card flex-row">
+                        <img class="image-responsive" src="../assets/apple-watch.jpeg" loading="lazy"
+                            alt="product image">
+                        <div class="card-details-container ">
+                            <h3 class="text-base">Apple Watch</h3>
+                            <p class="product-details">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Quibusdam asperiores autem iusto blanditiis consequatur dolorum sapiente ipsum
+                                molestiae.!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- vetical card with text overlay --&gt;
+&lt;div class="vertical-card flex-column card-overlay"&gt;
+   &lt;div class="overlay text-xl text-white text-center"&gt;Out of Stock&lt;/div&gt;
+   &lt;img src="https://rb.gy/pwrsjk" loading="lazy" alt="product image"&gt;
+   &lt;div class="card-details-container"&gt;
+      &lt;h3 class="text-base"&gt;HRX by Hrithik Roshan&lt;/h3&gt;
+      &lt;span class="text-xs"&gt;Men Charcoal Grey Slim &lt;/span&gt;
+      &lt;p class="card-price-info"&gt; Rs.549 &lt;del class="text-xs"&gt;Rs.899 &lt;/del&gt; &lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div class="card-footer"&gt;&lt;button class="btn btn-solid-primary buy-button text-white"&gt;ADD TO CART&lt;/button&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- horizontal card  --&gt;
+&lt;div class="horizontal-card flex-row"&gt;
+   &lt;img class="image-responsive" src="../assets/apple-watch.jpeg" loading="lazy" alt="product image"&gt;
+   &lt;div class="card-details-container "&gt;
+      &lt;h3 class="text-base"&gt;Apple Watch&lt;/h3&gt;
+      &lt;p class="product-details"&gt;Product details&lt;/p&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
                 </code></pre>
                 </div>
             </div>
@@ -321,17 +513,57 @@ fa-plus"&gt;&lt;/i&gt;&lt;/button&gt;
             <h2 class="text-xxl">Images</h2>
 
             <p class="description text-base">
-
+                These are responsive images takes width of their container they are in.
             </p>
             <div class="example-container">
-                <h3 class="example-heading">Sample Images</h3>
+                <h3 class="example-heading">Responsive Images</h3>
                 <div class="example flex-row">
-
+                    <!-- responsive image  -->
+                    <img loading="lazy"
+                        src="https://images.unsplash.com/photo-1516825295207-81549bdd014c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt="unsplash image " class="image-responsive" />
                 </div>
                 <div class="code  text-sm">
                     <pre><code class="html code-frame">
-        
+&lt;!-- responsive image  --&gt;
+&lt;img loading="lazy" class="image-responsive"
+   src="https://images.unsplash.com/photo-1642726197626-f03ef77f13cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+   alt="youtube button "  /&gt;
                 </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading">Round Images</h3>
+                <div class="example flex-row">
+                    <!-- round image  -->
+                    <img loading="lazy"
+                        src="https://images.unsplash.com/photo-1642726197626-f03ef77f13cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                        alt="youtube button" class="image-round" />
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- round image  --&gt;
+&lt;img loading="lazy" class="image-round"
+   src="https://images.unsplash.com/photo-1642726197626-f03ef77f13cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+   alt="youtube button" /&gt;
+                            </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading">Square Images</h3>
+                <div class="example flex-row">
+                    <!-- square image  -->
+                    <img loading="lazy"
+                        src="https://images.unsplash.com/photo-1642726197626-f03ef77f13cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+                        alt="youtube button" class="image-square" />
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- square image  --&gt;
+&lt;img loading="lazy" class="image-square"
+   src="https://images.unsplash.com/photo-1642726197626-f03ef77f13cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+   alt="youtube button"  /&gt;
+                                                </code></pre>
                 </div>
             </div>
         </section>
@@ -343,13 +575,46 @@ fa-plus"&gt;&lt;/i&gt;&lt;/button&gt;
             </p>
             <div class="example-container">
                 <h3 class="example-heading">Sample Inputs</h3>
-                <div class="example flex-row">
-
+                <div class="example ">
+                    <!-- input field  -->
+                    <label for="name" class="input-label text-base">User name:</label>
+                    <input name="name" type="text " class="input-area text-base" placeholder="User Name">
+                    <!-- email input  -->
+                    <label for="email" class="input-label text-base">Email:</label>
+                    <input name="email" type="email" class="input-area text-base" placeholder="Enter Email">
                 </div>
                 <div class="code  text-sm">
                     <pre><code class="html code-frame">
-
+&lt;!-- input field --&gt;
+&lt;label for="name" class="input-label text-base"&gt;User name:&lt;/label&gt;
+&lt;input name="name" type="text " class="input-area text-base" placeholder="User Name"&gt;
+&lt;!-- email input --&gt;
+&lt;label for="email" class="input-label text-base"&gt;Email:&lt;/label&gt;
+&lt;input name="email" type="email" class="input-area text-base" placeholder="Enter Email"&gt;
         </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading">Input with validation and errors style</h3>
+                <div class="example ">
+                    <!-- password input  -->
+                    <div class="has-error">
+                        <label for="password" class="input-label text-base">Password:</label>
+                        <input name="password" type="password" class="input-area text-base input-error" required
+                            minlength="4" placeholder="Password">
+                        <span class=" error-msg text-xs">Something Went Wrong</span>
+                    </div>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- password input  --&gt;
+&lt;div class="has-error"&gt;
+   &lt;label for="password" class="input-label text-base"&gt;Password:&lt;/label&gt;
+   &lt;input name="password" type="password" class="input-area text-base input-error" required minlength="4"
+      placeholder="Password"&gt;
+   &lt;span class=" error-msg text-xs"&gt;Something Went Wrong&lt;/span&gt;
+&lt;/div&gt;
+                                </code></pre>
                 </div>
             </div>
         </section>
