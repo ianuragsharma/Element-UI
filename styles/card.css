@@ -75,10 +75,15 @@
   font-weight: 900;
   background-color: var(--brand-secondary);
 }
+/* horizontal card  */
 .horizontal-card {
-  max-width: 55rem;
-  max-height: 15rem;
-  display: flex;
+  padding: 1rem;
+  border: 1px solid var(--dim-grey);
+}
+.horizontal-card img {
+  height: 8rem;
+  width: 8rem;
+  border: 2px solid var(--dim-grey);
 }
 .card-details-container .product-details {
   margin-top: 0.875rem;
