@@ -2,9 +2,13 @@
   border-radius: 50%;
   width: 2.5rem;
 }
+
 .avatar-sm {
   width: 1.875rem;
   height: 1.875rem;
+}
+.avatar-md {
+  height: 2.55rem;
 }
 .avatar-lg {
   width: 3.125rem;
