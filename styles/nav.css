@@ -1,8 +1,8 @@
-.nav-wrapper {
+.nav-container {
   background-color: var(--brand-secondary);
   align-items: center;
   padding: 1rem;
 }
-.nav-wrapper ul {
+.nav-container ul {
   margin-left: auto;
 }
