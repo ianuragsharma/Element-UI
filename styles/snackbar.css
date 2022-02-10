@@ -1,0 +1,22 @@
+.basic-snack {
+  background-color: var(--bg-midnight);
+  padding: 0.5rem;
+  align-items: center;
+  border-radius: 10px;
+}
+.basic-snack a {
+  margin-left: 0.5rem;
+}
+.basic-snack > * {
+  margin: 0.5rem;
+}
+.baseline-snack {
+  position: absolute;
+  bottom: 5px;
+}
+.stacked-snack {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
