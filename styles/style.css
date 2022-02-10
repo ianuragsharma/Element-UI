@@ -79,7 +79,6 @@
 .container {
   position: relative;
   margin: 0 auto;
-  margin-bottom: 3rem;
   max-width: 55rem;
   padding: 1rem;
   border-top: 2px solid var(--bg-offgrey);
@@ -88,8 +87,11 @@
   margin-top: 1rem;
 }
 .container h2 {
-  margin-top: 3rem;
-  font-weight: 500;
+  margin-top: 4rem;
+  font-weight: 600;
+}
+.container h3 {
+  font-weight: 400;
 }
 
 .description {
