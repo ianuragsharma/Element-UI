@@ -1,0 +1,8 @@
+.nav-wrapper {
+  background-color: var(--brand-secondary);
+  align-items: center;
+  padding: 1rem;
+}
+.nav-wrapper ul {
+  margin-left: auto;
+}
