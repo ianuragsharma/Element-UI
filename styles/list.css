@@ -1,0 +1,19 @@
+.list {
+  width: max-content;
+}
+.list li {
+  margin: 2px 5px;
+}
+
+.stacked-ls {
+  max-width: 15rem;
+  border: 2px solid var(--dim-grey);
+  border-radius: 5px;
+}
+.stacked-items > * {
+  margin: 0.5rem 0rem;
+}
+.stacked-items li:hover {
+  background-color: var(--bg-purple);
+  border-radius: 5px;
+}
