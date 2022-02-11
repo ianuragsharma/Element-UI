@@ -12,6 +12,7 @@
 .navigation {
   margin: 0 auto;
   max-width: 55rem;
+  padding: 0.75rem;
 }
 
 .navigation-title > i {
@@ -111,6 +112,9 @@
   padding: 1rem 0.5rem;
   border-radius: 5px;
   border: 1px solid var(--dim-grey);
+}
+#example-heading {
+  margin-top: 0px;
 }
 .code-frame {
   border-radius: 5px;
