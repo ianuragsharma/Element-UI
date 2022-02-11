@@ -22,7 +22,7 @@
             <nav class="navigation fw-300 flex-row text-xl">
                 <a class="navigation-title" href="../index.html" title="Element UI">
                     <i class="fab fa-envira fa-lg"></i>
-                    <span class="title">Element UI</span>
+                    <span class="title ">Element UI</span>
                 </a>
                 <ul class="navigation-list flex-row">
                     <li class="navigation-item">
@@ -37,6 +37,13 @@
                                 <li class="dropdown-item text-sm"><a class="anchor-tag" href="#card">Card</a></li>
                                 <li class="dropdown-item text-sm"><a class="anchor-tag" href="#images">Images</a></li>
                                 <li class="dropdown-item text-sm"><a class="anchor-tag" href="#input">Input</a></li>
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#text">Typography</a></li>
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#list">List</a></li>
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#navbar">Navigation</a>
+                                </li>
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#rating">Rating</a></li>
+                                <li class="dropdown-item text-sm"><a class="anchor-tag" href="#snackbar">Snackbar</a>
+                                </li>
 
                             </ul>
                         </div>
@@ -333,7 +340,7 @@ fa-plus"&gt;&lt;/i&gt;&lt;/button&gt;
                 </div>
             </div>
             <div class="example-container">
-                <h3 class="example-heading fw-400">Vertical Shopping card</h3>
+                <h3 class="example-heading fw-400">Vertical card</h3>
                 <div class="example flex-row">
                     <!-- vertical card  -->
                     <div class="vertical-card flex-column ">
@@ -392,7 +399,7 @@ fa-plus"&gt;&lt;/i&gt;&lt;/button&gt;
                 </div>
             </div>
             <div class="example-container">
-                <h3 class="example-heading fw-400">Vertical Shopping card With Badge and Dismiss</h3>
+                <h3 class="example-heading fw-400">Vertical card with Badge and Dismiss</h3>
                 <div class="example flex-row">
                     <!-- card with badge  -->
                     <div class="vertical-card flex-column card-badge">
@@ -455,7 +462,7 @@ fa-plus"&gt;&lt;/i&gt;&lt;/button&gt;
                 </div>
             </div>
             <div class="example-container">
-                <h3 class="example-heading fw-400">Vertical Card with text overlay and Horizontal Card</h3>
+                <h3 class="example-heading fw-400">Vertical card with text overlay and Horizontal Card</h3>
                 <div class="example flex-row ">
                     <!-- vetical card with text overlay -->
                     <div class="vertical-card flex-column card-overlay">
@@ -569,7 +576,8 @@ fa-plus"&gt;&lt;/i&gt;&lt;/button&gt;
         </section>
         <section class="container" id="input">
             <h2>Input</h2>
-
+            Inputs are used to receive data from the user.Element UI comes with different type of input field with
+            authentication.
             <p class="description text-base">
 
             </p>
@@ -615,6 +623,358 @@ fa-plus"&gt;&lt;/i&gt;&lt;/button&gt;
    &lt;span class=" error-msg text-xs"&gt;Something Went Wrong&lt;/span&gt;
 &lt;/div&gt;
                                 </code></pre>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="text">
+            <h2>Typography</h2>
+
+            <p class="description text-base">
+                Element UI comes with set of text utility that can be used to override boring looking default HTML
+                typography.
+                By defult Element UI uses google fonts, Roboto font-family
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Heading</h3>
+                <div class="example">
+                    <h1>Heading 1</h1>
+                    <h2 id="example-heading">Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- Heading Style --&gt;
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
+                    </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Text size</h3>
+                <div class="example ">
+                    <!-- text size -->
+                    <p class="text-xs">Sample text</p>
+                    <p class="text-sm">Sample text</p>
+                    <p class="text-base">Sample text</p>
+                    <p class="text-lg">Sample text</p>
+                    <p class="text-xl">Sample text</p>
+                    <p class="text-xxl">Sample text</p>
+                    <p class="text-xxxl">Sample text</p>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- text size --&gt;
+&lt;p class="text-xs"&gt;Sample text&lt;/p&gt;
+&lt;p class="text-sm"&gt;Sample text&lt;/p&gt;
+&lt;p class="text-base"&gt;Sample text&lt;/p&gt;
+&lt;p class="text-lg"&gt;Sample text&lt;/p&gt;
+&lt;p class="text-xl"&gt;Sample text&lt;/p&gt;
+&lt;p class="text-xxl"&gt;Sample text&lt;/p&gt;
+&lt;p class="text-xxxl"&gt;Sample text&lt;/p&gt;
+                                            </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Font Weight</h3>
+                <div class="example ">
+                    <!-- font weight -->
+                    <p class="fw-100">Sample Text</p>
+                    <p class="fw-300">Sample Text</p>
+                    <p class="fw-400">Sample Text</p>
+                    <p class="fw-500">Sample Text</p>
+                    <p class="fw-700">Sample Text</p>
+                    <p class="fw-900">Sample Text</p>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- font weight --&gt;
+&lt;p class="fw-100"&gt;Sample Text&lt;/p&gt;
+&lt;p class="fw-300"&gt;Sample Text&lt;/p&gt;
+&lt;p class="fw-400"&gt;Sample Text&lt;/p&gt;
+&lt;p class="fw-500"&gt;Sample Text&lt;/p&gt;
+&lt;p class="fw-700"&gt;Sample Text&lt;/p&gt;
+&lt;p class="fw-900"&gt;Sample Text&lt;/p&gt;
+                                                                </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Text Color</h3>
+                <div class="example ">
+                    <!-- text colors -->
+                    <p class="text-white">White Text</p>
+                    <p class="text-primary">Blue Text</p>
+                    <p class="text-red">Red Text</p>
+                    <p class="text-black">Black Text</p>
+
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- text colors --&gt;
+&lt;p class="text-white"&gt;White Text&lt;/p&gt;
+&lt;p class="text-primary"&gt;Blue Text&lt;/p&gt;
+&lt;p class="text-red"&gt;Red Text&lt;/p&gt;
+&lt;p class="text-black"&gt;Black Text&lt;/p&gt;
+                                                                </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Text Alignment</h3>
+                <div class="example ">
+                    <!-- text-align  -->
+                    <p class="text-center">Center Text</p>
+                    <p class="text-left">Left Text</p>
+                    <p class="text-right">Right Text</p>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- text-align --&gt;
+&lt;p class="text-center"&gt;Center Text&lt;/p&gt;
+&lt;p class="text-left"&gt;Left Text&lt;/p&gt;
+&lt;p class="text-right"&gt;Right Text&lt;/p&gt;
+                                                                </code></pre>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="list">
+            <h2>Lists</h2>
+
+            <p class="description text-base">
+                Element UI comes with two predefined list styling simple list and Stacked list.
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Simple List</h3>
+                <div class="example ">
+                    <!-- simple list  -->
+                    <ul class="list">
+                        <li>First item</li>
+                        <li>Second item</li>
+                        <li>Third item</li>
+                    </ul>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- simple list --&gt;
+&lt;ul class="list"&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ul&gt;
+                                </code></pre>
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Stacked list</h3>
+                <div class="example ">
+                    <!-- stacked list  -->
+                    <div class="stacked-ls">
+                        <ul class="stacked-items">
+                            <li class="flex-row"> <img alt="user-profile-img" class="avatar avatar-md"
+                                    src="../assets/avatar.svg" />
+                                <ul class="list">
+                                    <li class="fw-500">Person Name</li>
+                                    <li class="text-xs">Just followed you</li>
+                                </ul>
+                            </li>
+                            <li class="flex-row"> <img alt="user-profile-img" class="avatar avatar-md"
+                                    src="../assets/avatar-square-bg.svg" />
+                                <ul class="list">
+                                    <li class="fw-500">Person Name</li>
+                                    <li class="text-xs">Liked your comment</li>
+                                </ul>
+                            </li>
+                            <li class="flex-row"> <img alt="user-profile-img" class="avatar avatar-md"
+                                    src="../assets/avatar-circular.svg" />
+                                <ul class="list">
+                                    <li class="fw-500">Person Name</li>
+                                    <li class="text-xs">Wants to message you</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- stacked list  --&gt;
+&lt;div class="stacked-ls"&gt;
+    &lt;ul class="stacked-items"&gt;
+        &lt;li class="flex-row"&gt;
+            &lt;img alt="user-profile-img" class="avatar avatar-md" src="../assets/avatar.svg" /&gt;
+            &lt;ul class="list"&gt;
+                &lt;li class="fw-500"&gt;Person Name&lt;/li&gt;
+                &lt;li class="text-xs"&gt;Just followed you&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="flex-row"&gt;
+            &lt;img alt="user-profile-img" class="avatar avatar-md" src="../assets/avatar-square-bg.svg" /&gt;
+            &lt;ul class="list"&gt;
+                &lt;li class="fw-500"&gt;Person Name&lt;/li&gt;
+                &lt;li class="text-xs"&gt;Liked your comment&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li class="flex-row"&gt;
+            &lt;img alt="user-profile-img" class="avatar avatar-md" src="../assets/avatar-circular.svg" /&gt;
+            &lt;ul class="list"&gt;
+                &lt;li class="fw-500"&gt;Person Name&lt;/li&gt;
+                &lt;li class="text-xs"&gt;Wants to message you&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
+
+                                                        </code></pre>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="navbar">
+            <h2>Navigation Bar</h2>
+
+            <p class="description text-base">
+                Navigation bar is easy to make with Element UI.
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Navigation Bar</h3>
+                <div class="example flex-row">
+                    <nav class="nav-container flex-row">
+
+                        <a href="#">
+                            <h3 class="black">Website Name</h3>
+                        </a>
+
+                        <ul class="flex-row">
+                            <li class="">
+                                <button class="btn btn-icon text-black "><i
+                                        class="fa-regular fa-heart fa-2x"></i></button>
+                            </li>
+                            <li class="">
+                                <button class="btn btn-icon text-black"><i
+                                        class="fas fa-shopping-cart fa-2x"></i></button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;nav class="nav-container flex-row"&gt;
+    &lt;a href="#"&gt;
+        &lt;h3 class="black"&gt;Website Name&lt;/h3&gt;
+    &lt;/a&gt;
+
+    &lt;ul class="flex-row"&gt;
+        &lt;li class=""&gt;
+            &lt;button class="btn btn-icon text-black"&gt;&lt;i class="fa-regular fa-heart fa-2x"&gt;&lt;/i&gt;&lt;/button&gt;
+        &lt;/li&gt;
+        &lt;li class=""&gt;
+            &lt;button class="btn btn-icon text-black"&gt;&lt;i class="fas fa-shopping-cart fa-2x"&gt;&lt;/i&gt;&lt;/button&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+                            </code></pre>
+
+                </div>
+            </div>
+        </section>
+        <section class="container" id="rating">
+            <h2>Rating</h2>
+
+            <p class="description text-base">
+                Ratings can be used for eCommerice sites to allow the users to share theri opinion about the product.
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Star Rating</h3>
+                <div class="example flex-row">
+                    <div class="rating-container">
+                        <i class="fas fa-star enable"></i>
+                        <i class="fas fa-star enable"></i>
+                        <i class="fas fa-star enable"></i>
+                        <i class="fas fa-star enable"></i>
+                        <i class="fas fa-star enable"></i>
+                    </div>
+                    <div class="rating-container">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- Star rating --&gt;
+&lt;div class="rating-container">
+    &lt;i class="fas fa-star enable">&lt;/i>
+    &lt;i class="fas fa-star enable">&lt;/i>
+    &lt;i class="fas fa-star enable">&lt;/i>
+    &lt;i class="fas fa-star enable">&lt;/i>
+    &lt;i class="fas fa-star enable">&lt;/i>
+&lt;/div>
+&lt;div class="rating-container">
+    &lt;i class="far fa-star">&lt;/i>
+    &lt;i class="far fa-star">&lt;/i>
+    &lt;i class="far fa-star">&lt;/i>
+    &lt;i class="far fa-star">&lt;/i>
+    &lt;i class="far fa-star">&lt;/i>
+&lt;/div>       
+                            </code></pre>
+
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Card Rating</h3>
+                <div class="example flex-row">
+                    <span class="card-rating">
+                        <i class="fas fa-star enable"></i>
+                        <span>4.4</span>
+                    </span>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;!-- card rating  --&gt;
+&lt;span class="card-rating">
+    &lt;i class="fas fa-star enable">&lt;/i>
+    &lt;span>4.4&lt;/span>
+&lt;/span>
+    
+                                            </code></pre>
+
+                </div>
+            </div>
+        </section>
+        <section class="container" id="snackbar">
+            <h2>Snackbar</h2>
+
+            <p class="description text-base">
+                Snackbars are used to provide brief notifications to the user.
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Baseline Snackbar</h3>
+                <div class="example flex-row">
+
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+        
+                            </code></pre>
+
+                </div>
+            </div>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Stacked Snackbar</h3>
+                <div class="example flex-row">
+
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+                            
+                                                </code></pre>
+
                 </div>
             </div>
         </section>

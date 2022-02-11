@@ -26,3 +26,6 @@
 .hide {
   display: none;
 }
+.example nav {
+  width: 100%;
+}
