@@ -2,7 +2,7 @@
   background-color: var(--brand-secondary);
   justify-content: start + safe;
   align-items: center;
-  padding: 1rem;
+  padding: 8px;
 }
 .nav-container ul {
   margin-left: auto;
