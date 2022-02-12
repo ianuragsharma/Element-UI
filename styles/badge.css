@@ -2,12 +2,10 @@
   position: relative;
   width: max-content;
 }
-.badge-icon > i {
-  font-size: 3rem;
-}
+
 .badge > div {
-  bottom: 0.312rem;
-  right: 0.312rem;
+  bottom: 2px;
+  right: 5px;
   position: absolute;
   height: 0.625rem;
   width: 0.625rem;
@@ -29,8 +27,8 @@
 
 .badge .number {
   position: absolute;
-  top: 1px;
-  right: 0px;
+  top: -5px;
+  right: -5px;
   font-size: 0.625rem;
   text-align: center;
   line-height: 1rem;
