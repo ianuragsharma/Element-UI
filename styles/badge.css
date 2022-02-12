@@ -2,7 +2,9 @@
   position: relative;
   width: max-content;
 }
-
+.badge i:hover {
+  color: var(--brand-primary);
+}
 .badge > div {
   bottom: 2px;
   right: 5px;
