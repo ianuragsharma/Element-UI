@@ -8,9 +8,10 @@
 .btn-outlined-secondary {
   border: 1px solid var(--brand-secondary);
 }
-.btn-icon {
-  color: var(--brand-primary);
+.link-btn a:hover {
+  text-decoration: underline;
 }
+
 .btn-float > i {
   background-color: var(--brand-primary);
   line-height: 2rem;
