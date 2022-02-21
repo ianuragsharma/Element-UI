@@ -1,0 +1,7 @@
+.slider-container {
+  width: 90%;
+}
+
+.slider-container input[type="range"] {
+  width: 100%;
+}

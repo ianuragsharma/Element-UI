@@ -56,6 +56,8 @@
                                 <li class="dropdown-item fw-400 text-sm"><a class="anchor-tag"
                                         href="#snackbar">Snackbar</a>
                                 </li>
+                                <li class="dropdown-item fw-400 text-sm"><a class="anchor-tag" href="#slider">Slider</a>
+                                </li>
 
                             </ul>
                         </div>
@@ -989,6 +991,76 @@ src="https://pbs.twimg.com/profile_images/1478367769187926016/0QSuatcL_400x400.j
                 </div>
             </div>
         </section>
+        <section class="container" id="slider">
+            <h2>Slider</h2>
+
+            <p class="description text-base">
+                Slider are inputs that can be used to get some value from the user.
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Simple Slider</h3>
+                <div class="example flex-row">
+
+                    <div class="slider-container">
+                        <input type="range" min="0" max="1000" step="100" />
+                    </div>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+
+&lt;div class="slider-container"&gt;
+  &lt;input type="range" min="0" max="1000" step="100" /&gt;
+&lt;/div&gt;
+                            </code></pre>
+
+                </div>
+            </div>
+
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Slider with label</h3>
+                <div class="example flex-row">
+                    <div class="slider-container">
+                        <input type="range" min="0" max="1000" step="100" list="range-label" />
+                        <datalist id="range-label">
+                            <option value="0">0%</option>
+                            <option value="100"></option>
+                            <option value="200"></option>
+                            <option value="300"></option>
+                            <option value="400"></option>
+                            <option value="500">50%</option>
+                            <option value="600"></option>
+                            <option value="700"></option>
+                            <option value="800"></option>
+                            <option value="900"></option>
+                            <option value="1000">100%</option>
+                        </datalist>
+                    </div>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;div class="slider-container"&gt;
+   &lt;input type="range" min="0" max="1000" step="100" list="range-label" /&gt;
+   &lt;datalist id="range-label"&gt;
+      &lt;option value="0"&gt;0%&lt;/option&gt;
+      &lt;option value="100"&gt;&lt;/option&gt;
+      &lt;option value="200"&gt;&lt;/option&gt;
+      &lt;option value="300"&gt;&lt;/option&gt;
+      &lt;option value="400"&gt;&lt;/option&gt;
+      &lt;option value="500"&gt;50%&lt;/option&gt;
+      &lt;option value="600"&gt;&lt;/option&gt;
+      &lt;option value="700"&gt;&lt;/option&gt;
+      &lt;option value="800"&gt;&lt;/option&gt;
+      &lt;option value="900"&gt;&lt;/option&gt;
+      &lt;option value="1000"&gt;100%&lt;/option&gt;
+   &lt;/datalist&gt;
+&lt;/div&gt; 
+                            </code></pre>
+
+                </div>
+            </div>
+
+        </section>
+
         <footer class="container" class="footer">
 
         </footer>
