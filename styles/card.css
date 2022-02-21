@@ -76,14 +76,12 @@
 }
 /* horizontal card  */
 .horizontal-card {
-  padding: 1rem;
+  padding: 1rem 0rem;
   max-width: 35rem;
   border: 1px solid var(--dim-grey);
 }
 .horizontal-card img {
-  height: 8rem;
-  width: 8rem;
-  border: 2px solid var(--dim-grey);
+  max-width: 10rem;
 }
 .card-details-container .product-details {
   margin-top: 0.875rem;
