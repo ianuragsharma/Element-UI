@@ -954,7 +954,15 @@ Something not ideal might be happening.
             <div class="example-container">
                 <h3 class="example-heading fw-400">Baseline Snackbar</h3>
                 <div class="example flex-row">
-
+                    <button class="btn btn-solid-primary text-lg text-white " id="baseline-btn">Open Snackbar</button>
+                    <!-- baseline-snack -->
+                    <div class="flex-row baseline-snack basic-snack ">
+                        <p class="text-white">Can't send photo. Retry in 5
+                            seconds
+                        </p>
+                        <a href="#/" class="text-white">Link</a>
+                        <a href="#/" class="text-primary"><i class="fas fa-times"></i></a>
+                    </div>
                 </div>
                 <div class="code  text-sm">
                     <pre><code class="html code-frame">
@@ -966,7 +974,15 @@ Something not ideal might be happening.
             <div class="example-container">
                 <h3 class="example-heading fw-400">Stacked Snackbar</h3>
                 <div class="example flex-row">
-
+                    <button class="btn btn-solid-primary text-lg text-white" id="stacked-btn">Open Snackbar</button>
+                    <!-- stacked-snack -->
+                    <div class="basic-snack  stacked-snack ">
+                        <p class="text-white">This item already has the label " travel". You can add a new label. </p>
+                        <div class="text-right text-primary ">
+                            <a href="#/" class="text-white">Add a new link here</a>
+                            <a href="#/"><i class="fas fa-times"></i></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="code  text-sm">
                     <pre><code class="html code-frame">
@@ -1051,6 +1067,7 @@ Something not ideal might be happening.
         </footer>
     </main>
     <script src="../javascript/documentation.js"></script>
+    <script src="../javascript/snackbar.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 </body>
