@@ -1,5 +1,6 @@
 .modal {
   border: 2px solid var(--brand-secondary);
+  background-color: var(--solid-white);
   max-width: 22rem;
   border-radius: 5px;
   padding: 10px;

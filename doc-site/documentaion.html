@@ -60,6 +60,8 @@
                                 </li>
                                 <li class="dropdown-item fw-400 text-sm"><a class="anchor-tag" href="#grid">Grid</a>
                                 </li>
+                                <li class="dropdown-item fw-400 text-sm"><a class="anchor-tag" href="#modal">Modal</a>
+                                </li>
 
 
                             </ul>
@@ -1109,9 +1111,61 @@ Something not ideal might be happening.
                 </div>
             </div>
         </section>
-        <footer class="container" class="footer">
+        <section class="container" id="modal">
+            <h2>Modal</h2>
 
-        </footer>
+            <p class="description text-base">
+                Modals are used to attract user attention to take some action.They positioned over everything else in
+                the document and remove scroll from the page.
+            </p>
+            <div class="example-container">
+                <h3 class="example-heading fw-400">Simple Modal</h3>
+                <div class="example flex-row">
+                    <div class="modal">
+                        <div class="modal-head flex-row justify-spacebw">
+                            <h5 class="text-xl fw-500 ">Demo Modal</h5>
+                            <button><i class="fa-regular fa-circle-xmark modal-cancel text-base"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eos
+                                quos facilis
+                                repellendus quia sed,
+                                dignissimos nostrum adipisci reiciendis magni? </p>
+                        </div>
+                        <div class="modal-footer flex-row">
+                            <div class="flex-row modal-btn-container">
+                                <button class="btn btn-solid-primary text-white text-base modal-btn">Accept</button>
+                                <button class="btn btn-outlined-secondary modal-btn text-base">Decline</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code  text-sm">
+                    <pre><code class="html code-frame">
+&lt;div class="modal"&gt;
+   &lt;div class="modal-head flex-row justify-spacebw"&gt;
+      &lt;h5 class="text-xl fw-500 "&gt;Demo Modal&lt;/h5&gt;
+      &lt;button&gt;&lt;i class="fa-regular fa-circle-xmark modal-cancel text-base"&gt;&lt;/i&gt;&lt;/button&gt;
+   &lt;/div&gt;
+   &lt;div class="modal-body"&gt;
+      &lt;p class="text-base"&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam eos quos facilis
+         repellendus quia sed,
+         dignissimos nostrum adipisci reiciendis magni? 
+      &lt;/p&gt;
+   &lt;/div&gt;
+   &lt;div class="modal-footer flex-row"&gt;
+      &lt;div class="flex-row modal-btn-container"&gt;
+         &lt;button class="btn btn-solid-primary text-white text-base modal-btn"&gt;Accept&lt;/button&gt;
+         &lt;button class="btn btn-outlined-secondary modal-btn text-base"&gt;Decline&lt;/button&gt;
+      &lt;/div&gt;
+   &lt;/div&gt;
+&lt;/div&gt;
+                </code></pre>
+
+                </div>
+            </div>
+
+        </section>
     </main>
     <script src="../javascript/documentation.js"></script>
     <script src="../javascript/snackbar.js"></script>
