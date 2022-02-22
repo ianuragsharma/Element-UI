@@ -1,0 +1,22 @@
+.modal {
+  border: 2px solid var(--brand-secondary);
+  max-width: 22rem;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.modal-cancel:hover {
+  color: var(--alert-red);
+}
+.modal-body {
+  padding: 8px 0px;
+  margin: 8px 0px;
+  border-top: 1px solid var(--brand-secondary);
+  border-bottom: 1px solid var(--brand-secondary);
+}
+.modal-btn-container {
+  margin-left: auto;
+}
+.modal-btn {
+  margin-left: 8px;
+}
