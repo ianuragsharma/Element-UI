@@ -13,6 +13,7 @@
 @import url(./rating.css);
 @import url(./snackbar.css);
 @import url(./slider.css);
+@import url(./grid.css);
 
 :root {
   /* brand colors */
