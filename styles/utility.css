@@ -13,7 +13,7 @@
 @import url(./rating.css);
 @import url(./snackbar.css);
 @import url(./slider.css);
-
+@import url(./modal.css);
 :root {
   /* brand colors */
   --brand-primary: #4285f4;
