@@ -1,5 +1,6 @@
 .vertical-card {
   max-width: 13rem;
+  height: max-content;
 }
 .card-shadow:hover {
   box-shadow: 5px 5px 5px var(--brand-secondary);
