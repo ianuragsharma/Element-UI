@@ -99,6 +99,21 @@ ul {
 .justify-spacebw {
   justify-content: space-between;
 }
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
 /* margin  */
 /* margin */
 .m-center {
